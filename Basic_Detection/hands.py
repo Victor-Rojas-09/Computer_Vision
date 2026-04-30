@@ -6,7 +6,7 @@ from mediapipe.tasks.python import vision
 # -------------------------------
 # Load the model
 # -------------------------------
-MODEL_PATH = "hand_landmarker.task"
+MODEL_PATH = "models/hand_landmarker.task"
 
 base_options = python.BaseOptions(model_asset_path=MODEL_PATH)
 
